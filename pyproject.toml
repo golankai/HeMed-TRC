@@ -1,0 +1,2 @@
+[tool.black]
+exclude = 'further_pre_training/run_mlm.py'

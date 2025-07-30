@@ -1,0 +1,17 @@
+datasets==2.15.0
+torch==2.1.0
+transformers==4.44.0
+huggingface_hub==0.23.2
+evaluate
+accelerate==0.33.0
+sentencepiece!=0.1.92
+protobuf
+scikit-learn
+matplotlib
+tensorboard
+deep-translator
+stanza
+fastparquet
+numpy==1.26.2
+evaluate==0.4.1
+seqeval==1.2.2

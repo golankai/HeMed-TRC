@@ -1,0 +1,15 @@
+{
+  "debug": false,
+  "summary_dir": "summary",
+  "flota": false,
+  "auto_use_flota_eval": true,
+  "offline": true,
+
+  "do_da": false,
+  "do_pretraining": false,
+
+  "do_eval": true,
+
+  "seed": 42,
+  "show_plots": false
+}

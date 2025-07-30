@@ -1,0 +1,21 @@
+{
+  "tokenizer_base_names": ["dictabert"],
+  "schemas": ["simple"],
+  "corpus_name": "cut_ichilov",
+  "corpus_path": "further_pre_training/data/cut_ichilov/ichilov_train_cut.parquet",
+  "train_data_size": 1e6,
+  "new_emb_init": "avg",
+  "output_dir": "domain_adaptation/tokenizers",
+  "overwrite": false,
+  "do_idf": true,
+
+  "simple_vocab_size": 10000,
+
+  "ada_lm_interval": 1000,
+  "ada_lm_th": 0.01,
+
+  "idf_vocab_size": 5000,
+  "idf_max_score": "",
+  "idf_count_th": 15,
+  "idf_rm_prefix": false
+}
