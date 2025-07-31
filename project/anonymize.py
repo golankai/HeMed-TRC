@@ -39,7 +39,7 @@ ANON_COLUMNS = (
 PATNUM_NOT_FOUND = "PATNUM_NOT_FOUND"
 
 # read the list of organizations
-orgs_path = "safe_harbor/organizations.csv"
+orgs_path = "anon/organizations.csv"
 ORGS_LIST = pd.read_csv(orgs_path, encoding="utf-8-sig")["name"].tolist()
 
 def setup_hsh():

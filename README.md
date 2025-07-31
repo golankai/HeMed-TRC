@@ -28,7 +28,7 @@ All code is in the `project/` directory.
 | `domain_adaptation/`     | Tokenizer adaptation (simple extension, AdaLM). |
 | `further_pre_training/`  | Continual pretraining pipeline for base PLMs. |
 | `evaluation/`            | Model evaluation on TRC NLP. |
-| `safe_harbor/`           | De-identification with regex or [HebSafeHarbor](https://github.com/8400TheHealthNetwork/HebSafeHarbor). |
+| `anon/`           | De-identification with regex or [HebSafeHarbor](https://github.com/8400TheHealthNetwork/HebSafeHarbor). |
 | `anonymize.py`           | Script to run the de-identification process. |
 | `calc_ctc.py`            | Script to calculate tokenizer metrics of a given corpus. |
 | `run_exp.py`             | Main runner script controlled via `config.json`. |
