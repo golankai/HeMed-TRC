@@ -137,4 +137,5 @@ If you use this code or reference HeMed in your work, please cite:
 
 ## 📬 Contact
 
-For questions or contributions, open an issue or contact the authors directly.
+If you have any questions or contributions, please open an issue or contact the authors directly.
+kai.golanhashiloni@post.runi.ac.il
